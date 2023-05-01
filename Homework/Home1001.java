@@ -7,20 +7,10 @@ public class Home1 {
         Scanner in = new Scanner(System.in);
         System.out.printf("ведите число n: ");
         int n= in.nextInt();
-        
-        // System.out.print(n);
-       
-           
-             System.out.printf("треугольное число : %d\n", resultNumber(n));
-            
-     
-            in.close();
+        System.out.printf("треугольное число : %d\n", resultNumber(n));
+        in.close();
     }
-
     public static int resultNumber(int i) {
-        return     (i * (i+1))/2;
-
+        return  (i * (i+1))/2;
     }
-   
-
 }
