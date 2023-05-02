@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Home1 {
+public class Home1001 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.printf("ведите число n: ");
